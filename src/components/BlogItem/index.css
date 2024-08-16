@@ -1,0 +1,35 @@
+/* Write your CSS code here */
+.item-container {
+  list-style-type: none;
+}
+.item-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+.item-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  color: #12022f;
+}
+.item-para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #9aa5b1;
+}
+.paragraph {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #9aa5b1;
+}
+.line {
+  color: #9aa5b1;
+}
+@media(max-width:768px) {
+
+}
